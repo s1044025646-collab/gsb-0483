@@ -1,0 +1,25 @@
+{
+  "name": "cribbage-showdown",
+  "version": "1.0.0",
+  "description": "Cribbage 摊牌组合计分与最长顺子重数核验后端（API + CLI）",
+  "type": "module",
+  "main": "dist/server.js",
+  "bin": {
+    "cribbage": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsx --test tests/*.test.ts",
+    "start": "tsx src/server.ts",
+    "demo": "tsx src/cli.ts demo",
+    "cli": "tsx src/cli.ts"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "@types/node": "^22.9.0"
+  }
+}
