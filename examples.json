@@ -1,0 +1,7 @@
+[
+  { "hand": ["H5", "D5", "C5", "SJ"], "starter": "S5", "mode": "hand" },
+  { "hand": ["HA", "DA", "C2", "S3"], "starter": "H4", "mode": "hand" },
+  { "hand": ["H2", "H4", "H7", "H9"], "starter": "HK", "mode": "crib" },
+  { "hand": ["H5", "H5", "C5", "SJ"], "starter": "D2", "mode": "hand" },
+  { "hand": ["H3", "D3", "C3", "S4"], "starter": "H5", "mode": "hand" }
+]
